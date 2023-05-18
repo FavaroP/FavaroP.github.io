@@ -28,6 +28,7 @@ social:
   # - { icon: "twitter", link: "https://twitter.com/paululele" }
   - { icon: "instagram", link: "https://instagram.com/laurschauer" }
   - { icon: "linkedin", link: "https://linkedin.com/in/lauraschauer" }
+  - { icon: "git", link: "https://gitlab.com/laurschauer" }
 
 contacts:
   - {
