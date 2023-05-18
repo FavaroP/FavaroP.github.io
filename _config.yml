@@ -2,3 +2,4 @@ url: "http://lauraschauer.github.io" # the base hostname & protocol for your sit
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Laura Schauer" # the name of your site, e.g. ACME Corp.
 description: "Computer Scientist"
+profile-image: "https://github.com/lauraschauer/lauraschauer.github.io/blob/gh-pages/assets/img/profile-picture.jpg"
