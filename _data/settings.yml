@@ -1,44 +1,67 @@
 menu:
   - { name: "Publications", url: "/publications" }
-  - { name: "Projects", url: "/projects" }
+  - { name: "Blog", url: "/blog" }
   - { name: "CV", url: "/cv" }
   - { name: "Contact", url: "/contact" }
 
-# people:
-#   - {
-#       name: "Primary Investigator",
-#       title: "Researcher",
-#       department: "Physics & Astronomy",
-#       institution: "Some University",
-#       institution_address: "1 Main Street, Canada",
-#       phone: "(000) 000-0000",
-#       email: "hello@university.edu",
-#       office: "Science Building 505",
-#       image: "assets/img/primary-investigator.jpg",
-#       url: "primary-investigator",
-#     }
+people:
+  - {
+      name: "Primary Investigator",
+      title: "Researcher",
+      department: "Physics & Astronomy",
+      institution: "Some University",
+      institution_address: "1 Main Street, Canada",
+      phone: "(000) 000-0000",
+      email: "hello@university.edu",
+      office: "Science Building 505",
+      image: "assets/img/primary-investigator.jpg",
+      url: "primary-investigator",
+    }
+  - {
+      name: "Lab Technician",
+      title: "Researcher",
+      department: "Physics & Astronomy",
+      institution: "Some University",
+      institution_address: "1 Main Street, Canada",
+      phone: "(000) 000-0000",
+      email: "hello@university.edu",
+      office: "Science Building 505",
+      image: "assets/img/lab-technician.jpg",
+      url: "lab-technician",
+    }
+  - {
+      name: "Graduate Student",
+      title: "Researcher",
+      department: "Physics & Astronomy",
+      institution: "Some University",
+      institution_address: "1 Main Street, Canada",
+      phone: "(000) 000-0000",
+      email: "hello@university.edu",
+      office: "Science Building 505",
+      image: "assets/img/graduate-student.jpg",
+      url: "graduate-student",
+    }
 
-projects:
+courses:
   - { name: "Vector Calculus", url: "vector-calculus" }
   - { name: "Quantum Mechanics", url: "quantum-mechanics" }
   - { name: "Stellar Structures", url: "stellar-structures" }
 
 social:
-  - { icon: "github", link: "https://github.com/lauraschauer" }
-  # - { icon: "twitter", link: "https://twitter.com/paululele" }
-  - { icon: "instagram", link: "https://instagram.com/laurschauer" }
-  - { icon: "linkedin", link: "https://linkedin.com/in/lauraschauer" }
-  - { icon: "git", link: "https://gitlab.com/lauraschauer" }
+  - { icon: "github", link: "https://github.com/LeNPaul" }
+  - { icon: "twitter", link: "https://twitter.com/paululele" }
+  - { icon: "instagram", link: "https://instagram.com/paululele" }
+  - { icon: "linkedin", link: "https://linkedin.com/in/lenpaul" }
 
 contacts:
   - {
-      name: "Laura Schauer",
-      # title: "Professor",
+      name: "Dr. Academia",
+      title: "Professor",
       department: "Physics & Astronomy",
       institution: "Some University",
       institution_address: "1 Main Street, Canada",
       phone: "(000) 000-0000",
-      email: "lms9@hw.ac.uk",
+      email: "hello@university.edu",
       office: "Science Building 505",
       image: "assets/img/contact.jpg",
     }

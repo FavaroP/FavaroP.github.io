@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+{%- comment -%} These are the partials that can be mixed and matched by your layouts and posts to facilitate reuse. The
+liquid tag `{% include file.ext %}` can be used to include the partial in `_include/file.ext` {%- endcomment -%}
+
+<div class="row g-5 mb-5">
+    <div class="col-md-12">
+        <h3 class="fw-bold border-bottom pb-3 mb-5">{{ page.title }}</h3>
+        {{ content }}
+    </div>
+</div>
