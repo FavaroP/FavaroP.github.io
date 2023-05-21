@@ -10,10 +10,10 @@ courses:
   - { name: "Stellar Structures", url: "stellar-structures" }
 
 social:
-  - { icon: "github", link: "https://github.com/LeNPaul" }
-  - { icon: "twitter", link: "https://twitter.com/paululele" }
-  - { icon: "instagram", link: "https://instagram.com/paululele" }
-  - { icon: "linkedin", link: "https://linkedin.com/in/lenpaul" }
+  - { icon: "linkedin", link: "https://www.linkedin.com/in/pietro-favaro/" }
+  - { icon: "github", link: "https://github.com/FavaroP" }
+  # To add google scholar:
+  # - { icon: "google", link: "https://the-google-scholar-webiste.com/"}
 
 contacts:
   - {
