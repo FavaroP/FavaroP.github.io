@@ -1,29 +1,34 @@
+# Add tabs to your navigation here
 menu:
   - { name: "Publications", url: "/publications" }
   - { name: "Blog", url: "/blog" }
   - { name: "CV", url: "/cv" }
   - { name: "Contact", url: "/contact" }
 
-courses:
-  - { name: "Vector Calculus", url: "vector-calculus" }
-  - { name: "Quantum Mechanics", url: "quantum-mechanics" }
-  - { name: "Stellar Structures", url: "stellar-structures" }
-
+# Add Social Media Buttons here
 social:
   - { icon: "linkedin", link: "https://www.linkedin.com/in/pietro-favaro/" }
   - { icon: "github", link: "https://github.com/FavaroP" }
   # To add google scholar:
-  # - { icon: "google", link: "https://the-google-scholar-webiste.com/"}
+  # - { icon: "google", link: "https://the-google-scholar-website.com/"}
 
+# Change Homepage information here
+homepage:
+  title: "Introduction"
+  profile_picture: "/assets/img/profile-picture.jpg"
+  introduction: >- # this means to ignore newlines
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+# Change your contact information here
 contacts:
   - {
-      name: "Dr. Academia",
-      title: "Professor",
-      department: "Physics & Astronomy",
-      institution: "Some University",
-      institution_address: "1 Main Street, Canada",
+      name: "Pietro Favaro",
+      title: "Research Fellow",
+      department: "Energy Systems",
+      institution: "Edinburgh University",
+      institution_address: "King's Buildings",
       phone: "(000) 000-0000",
       email: "hello@university.edu",
       office: "Science Building 505",
-      image: "assets/img/contact.jpg",
+      image: "assets/img/profile-picture.jpg",
     }

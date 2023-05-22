@@ -1,4 +1,6 @@
 ---
 layout: blog 
-title: Blog
+title: Blog Posts
 ---
+
+Here's some markdown *content*. 
