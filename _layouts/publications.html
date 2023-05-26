@@ -2,21 +2,35 @@
 layout: default
 ---
 
-<div class="row g-5 mb-5">
-    <div>
-        <h3 class="fw-bold border-bottom pb-3 mb-5">Publications</h3>
-        {% if page.title == "Home" %}
-        {% for item in site.data.publications.featured %}
-        <p>
-            <a href="{{ item.url }}">{{ item.name }}</a>
-        </p>
-        {% endfor %}
-        {% else %}
+<div class="row">
+  <div class="col-md-12">
+    <h3 class="fw-bold border-bottom pb-3 mb5">Publications</h3>
+    <div id="content">
+
+      <ul class="timeline">
+
         {% for item in site.data.publications.index %}
-        <p>
-            <a href="{{ item.url }}">{{ item.name }}</a>
-        </p>
+
+        <li class="event" data-date="{{ item.year }}">
+          <a href="{{ item.url }}">{{ item.name }}</a>
+          <p>Get here on time, it's first come first serve. Be late, get turned away.</p>
+        </li>
+
         {% endfor %}
-        {% endif %}
+
+      </ul>
+
     </div>
+  </div>
 </div>
+
+{%- comment -%} <div class="row g-5 mb-5">
+  <div>
+    <h3 class="fw-bold border-bottom pb-3 mb-5">Publications</h3>
+    {% for item in site.data.publications.index %}
+    <p>
+      <a href="{{ item.url }}">{{ item.name }}</a>
+    </p>
+    {% endfor %}
+  </div>
+</div> {%- endcomment -%}
