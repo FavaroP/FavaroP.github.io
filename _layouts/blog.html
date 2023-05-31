@@ -9,7 +9,7 @@ liquid tag `{% include file.ext %}` can be used to include the partial in `_incl
     <div class="col-md-12">
         <h3 class="fw-bold border-bottom pb-3 mb-5">{{ page.title }}</h3>
         {% for post in site.posts %}
-        <p>
+        <p class="link-styling">
             <a href="{{ site.url }}/{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}
         </p>
         {% endfor %}
