@@ -1,17 +1,32 @@
-<header class="d-flex flex-column flex-md-row pb-3 mb-5 border-bottom">
-    <div class="align-items-center">
-        <div class="text-styling">
-            <a href="{{ site.github.url }}/" class="d-flex align-items-center text-decoration-none">
-                <span class="fs-4 fw-bold">{{ site.title }}</span>
-            </a>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid" style="padding-left: 0; padding-right: 0; padding-bottom: 20px;">
+            <!-- Navbar brand/logo -->
+            <div class="navbar-brand text-styling">
+                <a href="{{ site.github.url }}/" class="d-flex align-items-center text-decoration-none">
+                    <span class="fs-4 fw-bold">{{ site.title }}</span>
+                </a>
+                <a href="{{ site.github.url }}/" class="d-flex align-items-center text-decoration-none">
+                    <span class="fs-6">{{ site.description }}</span>
+                </a>
+            </div>
+
+            <!-- Hamburger icon (collapsed navbar) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible navbar content -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    {% for item in site.data.settings.menu %}
+                    <li class="text-styling nav-item">
+                        <a class="nav-link" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
         </div>
-        <a href="{{ site.github.url }}/" class="d-flex align-items-center text-decoration-none">
-            <span>{{ site.description }}</span>
-        </a>
-    </div>
-    <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto text-styling">
-        {% for item in site.data.settings.menu %}
-        <a class="me-3 py-2 text-decoration-none" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
-        {% endfor %}
     </nav>
 </header>
