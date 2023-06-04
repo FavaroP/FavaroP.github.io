@@ -1,6 +1,6 @@
 # Add tabs to your navigation here
 menu:
-  - { name: "Publications", url: "/publications" }
+  - { name: "Research", url: "/research" }
   - { name: "Blog", url: "/blog" }
   - { name: "CV", url: "/cv" }
   - { name: "Contact", url: "/contact" }
@@ -14,10 +14,14 @@ social:
 
 # Change Homepage information here
 homepage:
-  title: "Introduction"
+  title: "Welcome!"
   profile_picture: "/assets/img/profile-picture.jpg"
-  introduction: >- # this means to ignore newlines
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  introduction: |
+    I am a FNRS Research Fellow (2022-2026) within the Power Systems and Markets Research Group ([PSMR](https://www.linkedin.com/company/power-systems-and-market-research-group-psmr-umons/?trk=organization-update_share-update_actor-image&originalSubdomain=mh)) at the University of Mons ([UMons](https://web.umons.ac.be/en/)), Belgium. My main advisors are Prof. [François Vallée](https://scholar.google.be/citations?user=roSolfAAAAAJ&hl=en) and Dr. [Jean-François Toubeau](https://scholar.google.com.mx/citations?user=ZfhfurUAAAAJ&hl=en). My research interests include machine learning, optimization, energy markets and power systems. Currently, my focus lies mainly on bringing machine learning and optimization together for short-term planning tacks. Recently (January-June 2023), I enjoyed a research stay within [Thomas Morstyn](https://scholar.google.com.sg/citations?user=nvzgGIcAAAAJ&hl=en)'s research group at the University of Edinburgh. <br />
+
+    Before starting my PhD in October 2022, I received two Master's Degrees: one in electrical engineering from the University of Mons, Belgium and a second in “Smart Cities and Communities ([SMACCs](https://www.smaccs.eu/))” from Heriot Watt University. <br />
+
+    Next to my research, I teach a few hours about unbalance distribution network to master students at the Faculty of Engineering at UMons. I am also the co-organizer of the UMons AI Week event.
 
 # Change your contact information here
 contacts:

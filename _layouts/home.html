@@ -4,12 +4,12 @@ layout: default
 
 <div class="row g-5 mb-5">
     <h3 class="fw-bold border-bottom pb-3">{{ site.data.settings.homepage.title }}</h3>
-    <div class="col-md-8">
+    <div class="col-md-8 mt-3">
         <p>
-            {{ site.data.settings.homepage.introduction }}
+            {{ site.data.settings.homepage.introduction | markdownify }}
         </p>
     </div>
-    <div class="col-md-4 d-flex justify-content-center align-items-center">
+    <div class="col-md-4 d-flex justify-content-center align-items-top">
         <img src="{{ site.github.url }}{{ site.data.settings.homepage.profile_picture }}" class="rounded profile-picture" alt="The profile picture">
     </div>
 </div>

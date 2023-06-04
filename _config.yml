@@ -7,7 +7,7 @@
 title: Pietro Favaro
 email: pietro.favaro@umons.be
 description: >- # this means to ignore newlines until "baseurl:"
-  FNRS Research Fellow
+  FNRS Research Fellow | PhD Student
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://FavaroP.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
