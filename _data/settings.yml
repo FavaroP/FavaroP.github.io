@@ -31,8 +31,6 @@ contacts:
       department: "Energy Systems",
       institution: "Edinburgh University",
       institution_address: "King's Buildings",
-      phone: "(000) 000-0000",
-      email: "hello@university.edu",
-      office: "Science Building 505",
+      email: "pietro.favaro@umons.ac.uk",
       image: "assets/img/profile-picture.jpg",
     }
