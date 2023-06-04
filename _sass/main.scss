@@ -135,14 +135,18 @@ body a {
 .text-styling a {
     text-decoration: none;
     color: rgb(33, 37, 41);
-    background-image: linear-gradient(to right, rgb(33, 37, 41), rgb(33, 37, 41), #39B4B6, #3DE693);
+    background-image:
+        linear-gradient(to right, rgb(33, 37, 41), rgb(33, 37, 41)),
+        linear-gradient(to right, #39B4B6, #3DE693);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-size: 300% 100%;
-    background-position: top left;
-    transition: all 0.4s ease-in-out;
+    background-size: 100% 100%, 0% 100%;
+    background-position: 100% 100%, 0% 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
 }
 
 .text-styling a:hover {
-    background-position: top left 100%;
+    background-size: 0% 100%, 100% 100%;
 }
