@@ -56,8 +56,13 @@ layout: default
 
         {% for item in site.data.research.awards %}
 
-        <li class="event" data-date="{{ item.year }}">
+        <li class="event hidden-hover" data-date="{{ item.year }}">
           <a href="{{ item.url }}" target="_blank">{{ item.name }}</a>
+          <a href="{{ item.blog_url }}">
+            <i onclick="readMore({{ forloop.index }})" class="hidden-icon float-end fa fa-book">
+              <span class="fw-normal fs-6 p-1 tooltiptext" id="citation_tooltip_{{ forloop.index }}">Read More</span>
+            </i>
+          </a>
           <p>{{ item.description }}</p>
         </li>
 

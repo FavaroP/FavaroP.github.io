@@ -26,6 +26,6 @@ awards:
       name: "HERA Award",
       url: "https://hera.futuregenerations.be/en",
       year: 2022,
-      description: "Sustainability Award",
+      description: "Higher Education & Research Awards, Sustainable IT - Édition 2023",
       blog_url: "{{ site.github.url }}/jekyll/update/2023/05/2019/hera-award.html",
     }
