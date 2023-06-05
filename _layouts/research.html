@@ -11,8 +11,22 @@ layout: default
 
         {% for item in site.data.research.papers %}
 
-        <li class="event" data-date="{{ item.year }}">
-          <a href="{{ item.url }}" target="_blank">{{ item.name }}</a>
+        <li class="event hidden-hover" data-date="{{ item.year }}">
+          <p class="mt-1 mb-1">
+            <a href="{{ item.url }}" target="_blank">{{ item.name }}</a> 
+            {% if item.citation %}
+            <i onclick="copyCitation({{ item.citation }}, {{ forloop.index }})" class="hidden-icon float-end fa fa-quote-right">
+              <span class="fw-normal fs-6 p-1 tooltiptext" id="citation_tooltip_{{ forloop.index }}">Copy Citation (Harvard)</span>
+            </i>
+            {% endif %}
+            {% if item.blog_url %}
+            <a href="{{ item.blog_url }}">
+              <i onclick="readMore({{ forloop.index }})" class="hidden-icon float-end fa fa-book">
+                <span class="fw-normal fs-6 p-1 tooltiptext" id="blog_tooltip">Read More</span>
+              </i>
+            </a>
+            {% endif %}
+          </p>
           <p class="mt-1 mb-1 research-authors">{{ item.authors }}</p>
           <p><i>{{ item.publisher }}</i>, {{ item.location }}</p>
         </li>

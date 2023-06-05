@@ -17,6 +17,31 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   {%- comment -%} Linking the custom stylesheet {%- endcomment -%}
   <link rel="stylesheet" href="/assets/css/styles.css">
+
+  {%- comment -%} Custom JS {%- endcomment -%}
+  <script>
+    function copyCitation(text, number) {
+      const el = document.createElement('textarea');
+      el.value = text;
+      document.body.appendChild(el);
+      el.select();
+      
+      // Copy the text 
+      navigator.clipboard.writeText(String(el.value)); 
+
+      // Alert the copied text
+      {%- comment -%} alert('Text copied to clipboard'); {%- endcomment -%}
+
+      // Turn the text into a tick
+      var id = "citation_tooltip_".concat(number)
+      var tooltip = document.getElementById(id); 
+      tooltip.innerHTML = "Copied";
+
+      setTimeout(function() {
+        tooltip.innerHTML = "Copy Citation (Harvard)";
+      }, 3000);
+    }
+  </script>
 </head>
 
 <body>

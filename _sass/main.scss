@@ -160,3 +160,69 @@ body a:hover {
 .research-authors {
     color: $gray;
 }
+
+// Icons when hovering over the title of the paper
+
+.hidden-hover .hidden-icon {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.4s linear, opacity 0.4s linear;
+    padding-left: 10px;
+    padding-top: 6px;
+    color: $fnrsBlue;
+}
+
+.hidden-hover:hover .hidden-icon {
+    visibility: visible;
+    opacity: 1;
+}
+
+.hidden-icon {
+    cursor: pointer;
+}
+
+// Tooltip 
+.fa-quote-right:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.fa-book:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltiptext {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    visibility: hidden;
+    opacity: 0;
+    background-color: #39b4b671;
+    color: $backgroundColor;
+    font-family: $bodyFont;
+    border-radius: 6px;
+    transition: visibility 0.4s, opacity 0.4s;
+}
+
+.tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    right: 5px;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #39b4b671 transparent transparent transparent;
+}
+
+#blog_tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    right: 29px;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #39b4b671 transparent transparent transparent;
+}
