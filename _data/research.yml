@@ -1,22 +1,23 @@
 papers:
   - {
       name: "[Master Thesis] Machine Learning Informed Optimization Applied To Pumped Hydro Energy Storage",
-      url: "https://hera.futuregenerations.be/sites/www.futuregenerations.be/files/2023_mtait_05_tfe_pietrofavaro.pdf",
+      paper_url: "https://hera.futuregenerations.be/sites/www.futuregenerations.be/files/2023_mtait_05_tfe_pietrofavaro.pdf",
       year: 2022,
       authors: "P. Favaro",
       publisher: "HERA - Higher Education & Research Awards",
       location: "Faculté polytechnique de Mons",
-      blog_url: "{{ site.github.url }}/jekyll/update/2023/05/2019/hera-award.html",
+      blog_url: "{{ site.github.url }}/jekyll/update/2023/05/19/hera-award.html",
       # Please add double quotes and single quotes to the citation, otherwise the JS responsible for copying to the clipboard doesn't recognise it as a string.
       # citation: "'P. Favaro, “Machine Learning Informed Optimization Applied to Pumped Hydro Energy Storage”.'",
     }
   - {
       name: "A Study of Negative Corona Discharge by an imporved Plasma Model under Action of Photoionization: The Effect of Temperature, Pressure and Humidity",
-      url: "https://ieeexplore.ieee.org/abstract/document/9705465",
+      paper_url: "https://ieeexplore.ieee.org/abstract/document/9705465",
       year: 2021,
       authors: "C. Zogning, J. Lobry, F. Moiny and P. Favaro",
       publisher: "IEEE Conference on Electrical Insulation and Dielectric Phenomena (CEIDP)",
       location: "Vancouver, BC, Canada",
+      blog_url: "{{ site.github.url }}/jekyll/update/2023/02/12/corona-discharge.html",
       # Please add double quotes and single quotes to the citation, otherwise the JS responsible for copying to the clipboard doesn't recognise it as a string.
       citation: '''C. Zogning, J. Lobry, F. Moiny and P. Favaro, "A Study of Negative Corona Discharge by an improved Plasma Model under Action of Photoionization: The Effect of Temperature, Pressure, and Humidity," 2021 IEEE Conference on Electrical Insulation and Dielectric Phenomena (CEIDP), Vancouver, BC, Canada, 2021, pp. 307-314, doi: 10.1109/CEIDP50766.2021.9705465.''',
     }

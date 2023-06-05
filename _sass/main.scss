@@ -187,7 +187,7 @@ body a:hover {
     opacity: 1;
 }
 
-.fa-book:hover .tooltiptext {
+.fas:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
 }
@@ -216,7 +216,7 @@ body a:hover {
     border-color: #39b4b671 transparent transparent transparent;
 }
 
-#blog_tooltip::after {
+#paper_tooltip::after {
     content: "";
     position: absolute;
     top: 100%;

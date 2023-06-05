@@ -13,21 +13,24 @@ layout: default
 
         <li class="event hidden-hover" data-date="{{ item.year }}">
           <p class="mt-1 mb-1">
-            <a href="{{ item.url }}" target="_blank">{{ item.name }}</a> 
+            <a href="{{ item.blog_url }}">{{ item.name }}</a> 
+            {%- comment -%} To copy a citation {%- endcomment -%}
             {% if item.citation %}
               <i onclick="copyCitation({{ item.citation }}, {{ forloop.index }})" class="hidden-icon float-end fa fa-quote-right">
-                <span class="fw-normal fs-6 p-1 tooltiptext" id="citation_tooltip_{{ forloop.index }}">Copy Citation (Harvard)</span>
+                <span class="fw-normal fs-6 p-1 tooltiptext" id="citation_tooltip_{{ forloop.index }}">
+                  Copy Citation (IEEE)
+                </span>
               </i>
-              {% if item.blog_url %}
-                <a href="{{ item.blog_url }}">
-                  <i onclick="readMore({{ forloop.index }})" class="hidden-icon float-end fa fa-book">
-                    <span class="fw-normal fs-6 p-1 tooltiptext" id="blog_tooltip">Read More</span>
-                  </i>
-                </a>
-              {% endif %}
-            {% elsif item.blog_url %}
-              <a href="{{ item.blog_url }}">
-                <i onclick="readMore({{ forloop.index }})" class="hidden-icon float-end fa fa-book">
+              {%- comment -%} To link to the paper next to the citation {%- endcomment -%}
+              <a href="{{ item.paper_url }}" target="_blank">
+                <i onclick="readMore({{ forloop.index }})" class="hidden-icon float-end fas fa-external-link">
+                  <span class="fw-normal fs-6 p-1 tooltiptext" id="paper_tooltip">Read Paper</span>
+                </i>
+              </a>
+              {%- comment -%} To link to the paper without a citation {%- endcomment -%}
+            {% else %}
+              <a href="{{ item.paper_url }}" target="_blank">
+                <i onclick="readMore({{ forloop.index }})" class="hidden-icon float-end fas fa-external-link" aria-hidden="true">
                   <span class="fw-normal fs-6 p-1 tooltiptext" id="citation_tooltip_{{ forloop.index }}">Read More</span>
                 </i>
               </a>
@@ -57,9 +60,9 @@ layout: default
         {% for item in site.data.research.awards %}
 
         <li class="event hidden-hover" data-date="{{ item.year }}">
-          <a href="{{ item.url }}" target="_blank">{{ item.name }}</a>
-          <a href="{{ item.blog_url }}">
-            <i onclick="readMore({{ forloop.index }})" class="hidden-icon float-end fa fa-book">
+          <a href="{{ item.blog_url }}">{{ item.name }}</a>
+          <a href="{{ item.url }}" target="_blank">
+            <i onclick="readMore({{ forloop.index }})" class="hidden-icon float-end fas fa-external-link">
               <span class="fw-normal fs-6 p-1 tooltiptext" id="citation_tooltip_{{ forloop.index }}">Read More</span>
             </i>
           </a>
