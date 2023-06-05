@@ -38,6 +38,13 @@ body a:hover {
     background-size: 0 2px, 100% 2px;
 }
 
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+    body a {
+        transition-duration: 0ms;
+    }
+}
+
 // Make text colored in gradient when hover styling 
 .text-styling a {
     text-decoration: none;
@@ -52,6 +59,13 @@ body a:hover {
     background-position: 100% 100%, 0% 100%;
     background-repeat: no-repeat;
     transition: background-size 400ms;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+    .text-styling a {
+        transition-duration: 0ms;
+    }
 }
 
 .text-styling a:hover {
@@ -170,6 +184,14 @@ body a:hover {
     padding-left: 10px;
     padding-top: 6px;
     color: $fnrsBlue;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+    .hidden-hover .hidden-icon {
+        visibility: visible;
+        opacity: 1;
+    }
 }
 
 .hidden-hover:hover .hidden-icon {
