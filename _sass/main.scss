@@ -38,6 +38,12 @@ body a:hover {
     background-size: 0 2px, 100% 2px;
 }
 
+.no-link-styling a {
+    text-decoration: none;
+    color: $bodyColor !important;
+    background: none;
+}
+
 /* Media query for mobile devices */
 @media (max-width: 767px) {
     body a {

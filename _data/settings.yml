@@ -27,10 +27,10 @@ homepage:
 contacts:
   - {
       name: "Pietro Favaro",
-      title: "Research Fellow",
-      department: "Energy Systems",
-      institution: "Edinburgh University",
-      institution_address: "King's Buildings",
+      title: "FNRS Research Fellow | PhD Student",
+      department: "Power Electrical Engineering Unit",
+      institution: "Faculté Polytechnique UMons",
+      institution_address: "No. 31, Boulevard Dolez, 7000 Mons",
       email: "pietro.favaro@umons.ac.uk",
       image: "assets/img/profile-picture.jpg",
     }
