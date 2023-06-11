@@ -6,7 +6,7 @@ papers:
       authors: "P. Favaro",
       publisher: "HERA - Higher Education & Research Awards",
       location: "Faculté polytechnique de Mons",
-      blog_url: "/jekyll/update/2023/05/19/hera-award.html",
+      blog_url: "/2023/04/26/HERA_award.html",
       # Please add double quotes and single quotes to the citation, otherwise the JS responsible for copying to the clipboard doesn't recognise it as a string.
       # citation: "'P. Favaro, “Machine Learning Informed Optimization Applied to Pumped Hydro Energy Storage”.'",
     }
@@ -17,16 +17,23 @@ papers:
       authors: "C. Zogning, J. Lobry, F. Moiny and P. Favaro",
       publisher: "IEEE Conference on Electrical Insulation and Dielectric Phenomena (CEIDP)",
       location: "Vancouver, BC, Canada",
-      blog_url: "/jekyll/update/2021/02/12/corona-discharge.html",
       # Please add double quotes and single quotes to the citation, otherwise the JS responsible for copying to the clipboard doesn't recognise it as a string.
+      blog_url: "#",
       citation: "'C. Zogning, J. Lobry, F. Moiny and P. Favaro, A Study of Negative Corona Discharge by an improved Plasma Model under Action of Photoionization: The Effect of Temperature, Pressure, and Humidity, 2021 IEEE Conference on Electrical Insulation and Dielectric Phenomena (CEIDP), Vancouver, BC, Canada, 2021, pp. 307-314, doi: 10.1109/CEIDP50766.2021.9705465.'",
     }
 
 awards:
   - {
+      name: "Engie Award",
+      url: "https://www.linkedin.com/posts/engie-belgium_prix-engie-activity-7060221770686976001-3sQ1/?originalSubdomain=pe",
+      year: 2022,
+      description: "Prix Engie 2022",
+      blog_url: "2023/05/04/Engie_Award.html",
+    }
+  - {
       name: "HERA Award",
       url: "https://hera.futuregenerations.be/en",
       year: 2022,
       description: "Higher Education & Research Awards, Sustainable IT - Édition 2023",
-      blog_url: "/jekyll/update/2023/05/19/hera-award.html",
+      blog_url: "2023/04/26/HERA_award.html",
     }

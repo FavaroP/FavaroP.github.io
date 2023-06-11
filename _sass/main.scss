@@ -330,3 +330,38 @@ body a:hover {
     border-style: solid;
     border-color: #39b4b671 transparent transparent transparent;
 }
+
+// BLOG PAGE
+
+/* Remove the link styling from footnotes */
+.footnote {
+    background: none;
+}
+
+.footnote:hover {
+    background: none;
+}
+
+.footnotes a {
+    background: none;
+}
+
+.footnotes a:hover {
+    background: none;
+}
+
+<<<<<<< HEAD
+.footnotes a {
+    background: none;
+}
+
+.footnotes a:hover {
+    background: none;
+}
+
+.blog-post>img {
+=======
+.blog-post p img {
+>>>>>>> c5aa52b (restricts blog post images' width)
+    max-width: 100%;
+}

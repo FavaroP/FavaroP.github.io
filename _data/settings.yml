@@ -29,8 +29,8 @@ contacts:
       name: "Pietro Favaro",
       title: "FNRS Research Fellow | PhD Student",
       department: "Power Electrical Engineering Unit",
-      institution: "Faculté Polytechnique UMons",
-      institution_address: "No. 31, Boulevard Dolez, 7000 Mons",
+      institution: "Faculté Polytechnique de Mons, UMons",
+      institution_address: "Boulevard Dolez 31, 7000 Mons, Belgique",
       email: "pietro.favaro@umons.ac.uk",
-      image: "assets/img/profile-picture.png",
+      image: "assets/img/profile-picture-1.jpg",
     }
