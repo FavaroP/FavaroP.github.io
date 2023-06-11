@@ -15,7 +15,7 @@ social:
 # Change Homepage information here
 homepage:
   title: "Welcome!"
-  profile_picture: "/assets/img/profile-picture.jpg"
+  profile_picture: "/assets/img/profile-picture.png"
   introduction: |
     I am a FNRS Research Fellow (2022-2026) within the Power Systems and Markets Research Group ([PSMR](https://www.linkedin.com/company/power-systems-and-market-research-group-psmr-umons/?trk=organization-update_share-update_actor-image&originalSubdomain=mh)) at the University of Mons ([UMons](https://web.umons.ac.be/en/)), Belgium. My main advisors are Prof. [François Vallée](https://scholar.google.be/citations?user=roSolfAAAAAJ&hl=en) and Dr. [Jean-François Toubeau](https://scholar.google.com.mx/citations?user=ZfhfurUAAAAJ&hl=en). My research interests include machine learning, optimization, energy markets and power systems. Currently, my focus lies mainly on bringing machine learning and optimization together for short-term planning tacks. Recently (January-June 2023), I enjoyed a research stay within [Thomas Morstyn](https://scholar.google.com.sg/citations?user=nvzgGIcAAAAJ&hl=en)'s research group at the University of Edinburgh. <br />
 
@@ -32,5 +32,5 @@ contacts:
       institution: "Faculté Polytechnique UMons",
       institution_address: "No. 31, Boulevard Dolez, 7000 Mons",
       email: "pietro.favaro@umons.ac.uk",
-      image: "assets/img/profile-picture.jpg",
+      image: "assets/img/profile-picture.png",
     }

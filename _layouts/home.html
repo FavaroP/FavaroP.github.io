@@ -8,9 +8,19 @@ layout: default
         <p>
             {{ site.data.settings.homepage.introduction | markdownify }}
         </p>
+        <div class="d-flex justify-content-center no-link-styling">
+            <a href="{{ site.github.url }}/assets/img/CV.pdf" download="Favaro_Pietro_CV">
+                <button type="button" class="cbutton-full mx-5">More on PSMR</button>
+            </a>
+            <a href="{{ site.github.url }}/assets/img/CV.pdf" download="Favaro_Pietro_CV">
+                <button type="button" class="cbutton-outline mx-5">Contact Me</button>
+            </a>
+        </div>
     </div>
     <div class="col-md-4 d-flex justify-content-center align-items-top">
-        <img src="{{ site.github.url }}{{ site.data.settings.homepage.profile_picture }}" class="rounded profile-picture" alt="The profile picture">
+        <div class="profile-picture-background">
+            <img src="{{ site.github.url }}{{ site.data.settings.homepage.profile_picture }}" class="profile-picture" alt="The profile picture">
+        </div>
     </div>
 </div>
 
