@@ -13,4 +13,4 @@ I particularly liked the dynamism of the organization team lead by [Tias Guns](h
 
 As you can see in the picture below, we all had to think very hard during the whole week!
 
-<img style="float: center; width: 30%; max-width:200px; height:auto" src="{{ site.github.url }}/assets/img/ACP-SummerSchool/ACPsummerschool-grouppicture.JPG">
+<img style="align: middle; width: 50%; max-width:200px; height:auto" src="{{ site.github.url }}/assets/img/ACP-SummerSchool/ACPsummerschool-grouppicture.JPG">
