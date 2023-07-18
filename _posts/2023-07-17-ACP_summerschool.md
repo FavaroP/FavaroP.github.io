@@ -11,6 +11,6 @@ One of the highlights of the summer school was the poster session and its walkin
 
 I particularly liked the dynamism of the organization team lead by [Tias Guns](https://people.cs.kuleuven.be/~tias.guns/) which prepared plenty of activities and made us discover Leuven. It is a splendid city with historical buildings at every corner and excellent museum named M. I highly recommend you visit if you ever have the opportunity.
 
-As you can see in the picture below, we all had to think very hard during the whole week!
+As you can see in the picture below, we all had to think very hard (but with style) during the whole week!
 
 <img style="display: block; margin: 0 auto; width: 80%; max-width:1000px; height:auto" src="{{ site.github.url }}/assets/img/ACP-SummerSchool/ACPsummerschool-grouppicture.JPG">
