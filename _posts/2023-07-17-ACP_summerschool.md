@@ -15,4 +15,4 @@ As you can see in the picture below, we all had to think very hard (but with sty
 
 <img style="display: block; margin: 0 auto; width: 80%; max-width:1000px; height:auto" src="{{ site.github.url }}/assets/img/ACP-SummerSchool/ACPsummerschool-grouppicture.JPG">
 
-* photo by H. Verhaeghe
+*photo by H. Verhaeghe
