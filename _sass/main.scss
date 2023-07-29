@@ -334,26 +334,30 @@ body a:hover {
 // BLOG PAGE
 
 /* Remove the link styling from footnotes */
-.footnote {
+.blog-post .footnote {
     background: none;
 }
 
-.footnote:hover {
+.blog-post .footnote:hover {
     background: none;
 }
 
-.footnotes a {
+.blog-post .footnotes a {
+    background: none;
+    display: none;
+}
+
+.blog-post .footnotes a:hover {
     background: none;
 }
 
-.footnotes a:hover {
-    background: none;
+.blog-post .footnotes ol {
+    font-size: 0.9em;
+    color: $gray;
+    padding-left: calc(var(--bs-gutter-x) * .5);
 }
 
-.footnotes a {
-    background: none;
-}
-
-.footnotes a:hover {
-    background: none;
+.blog-post img {
+    max-width: 100%;
+    height: auto;
 }
