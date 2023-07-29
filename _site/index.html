@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Pietro Favaro</title><meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384–1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"><script src="https://kit.fontawesome.com/d78b9bd9e5.js" crossorigin="anonymous"></script><link rel="stylesheet" href="/assets/css/styles.css"><meta name="google-site-verification" content="1MBqasZm-EWguG5d4ZILHgVOop1wIhc3F6lKv4WmTrc" /><script>
+    function copyCitation(text, number) {
+      const el = document.createElement('textarea');
+      el.value = text;
+      document.body.appendChild(el);
+      el.select();
+      
+      // Copy the text 
+      navigator.clipboard.writeText(String(el.value)); 
+
+      // Alert the copied text// Turn the text into a tick
+      var id = "citation_tooltip_".concat(number)
+      var tooltip = document.getElementById(id); 
+      tooltip.innerHTML = "Copied";
+
+      setTimeout(function() {
+        tooltip.innerHTML = "Copy Citation (IEEE)";
+      }, 3000);
+    }
+  </script>
+</head>
+
+<body>
+  <div class="col-lg-8 mx-auto p-3 py-md-5">
+    <header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container-fluid" style="padding-left: 0; padding-right: 0; padding-bottom: 20px;">
+      <!-- Navbar brand/logo -->
+      <div class="navbar-brand text-styling">
+        <a href="/" class="d-flex align-items-center text-decoration-none">
+          <div class="d-flex flex-column">
+            <span class="fs-4 fw-bold">Pietro Favaro</span>
+            <span class="fs-6">FNRS Research Fellow | PhD Student</span>
+          </div>
+        </a>
+      </div>
+
+      <!-- Hamburger icon (collapsed navbar) -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapsible navbar content -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          
+          <li class="text-styling nav-item">
+            <a class="nav-link" href="/research">Research</a>
+          </li>
+          
+          <li class="text-styling nav-item">
+            <a class="nav-link" href="/blog">Blog</a>
+          </li>
+          
+          <li class="text-styling nav-item">
+            <a class="nav-link" href="/cv">CV</a>
+          </li>
+          
+          <li class="text-styling nav-item">
+            <a class="nav-link" href="/contact">Contact</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+    <div class="row g-5 mb-5">
+    <h3 class="fw-bold border-bottom pb-3">Welcome!</h3>
+    <div class="col-md-8 mt-3">
+        <p>
+            <p>I am a FNRS Research Fellow (2022-2026) within the Power Systems and Markets Research Group (<a href="https://www.linkedin.com/company/power-systems-and-market-research-group-psmr-umons/?trk=organization-update_share-update_actor-image&amp;originalSubdomain=mh">PSMR</a>) at the University of Mons (<a href="https://web.umons.ac.be/en/">UMons</a>), Belgium. My main advisors are Prof. <a href="https://scholar.google.be/citations?user=roSolfAAAAAJ&amp;hl=en">François Vallée</a> and Dr. <a href="https://scholar.google.com.mx/citations?user=ZfhfurUAAAAJ&amp;hl=en">Jean-François Toubeau</a>. My research interests include machine learning, optimization, energy markets and power systems. Currently, my focus lies mainly on bringing machine learning and optimization together for short-term planning tacks. Recently (January-June 2023), I enjoyed a research stay within <a href="https://scholar.google.com.sg/citations?user=nvzgGIcAAAAJ&amp;hl=en">Thomas Morstyn</a>’s research group at the University of Edinburgh. <br /></p>
+
+<p>Before starting my PhD in October 2022, I received two Master’s Degrees: one in electrical engineering from the University of Mons, Belgium and a second in “Smart Cities and Communities (<a href="https://www.smaccs.eu/">SMACCs</a>)” from Heriot Watt University. <br /></p>
+
+<p>Next to my research, I teach a few hours about unbalance distribution network to master students at the Faculty of Engineering at UMons. I am also the co-organizer of the UMons AI Week event.</p>
+
+        </p>
+        <div class="d-flex justify-content-center no-link-styling">
+            <a href="https://www.linkedin.com/company/power-systems-and-market-research-group-psmr-umons/?originalSubdomain=be" target="_blank">
+                <button type="button" class="cbutton-full mx-lg-5 mx-sm-2">More on PSMR</button>
+            </a>
+            <a href="/contact">
+                <button type="button" class="cbutton-outline mx-lg-5 mx-sm-2">Contact Me</button>
+            </a>
+        </div>
+    </div>
+    <div class="col-md-4 d-flex justify-content-center align-items-top">
+        <div class="profile-picture-background">
+            <img src="/assets/img/profile-picture.png" class="profile-picture" alt="The profile picture">
+        </div>
+    </div>
+</div>
+
+<div class="row g-5 mb-5">
+    <div class="col-md-12">
+        <h3 class="fw-bold border-bottom pb-3 mb-5">News</h3>
+        
+        <p class="link-styling">
+            <a href="//2023/05/04/Engie_Award.html">Engie Award</a> - May 4, 2023
+        </p>
+        
+        <p class="link-styling">
+            <a href="//2023/04/26/HERA_award.html">HERA Award Sustainable IT</a> - April 26, 2023
+        </p>
+        
+    </div>
+</div>
+    <footer class="pt-5 my-5 text-muted border-top">
+    <div class="row">
+        <div class="col-md-12 text-center social-media-icons">
+            
+            <a href="https://www.linkedin.com/in/pietro-favaro/" class="ms-3 fs-5" target=_blank><i class="fab fa-linkedin"></i></a>
+            
+            <a href="https://github.com/FavaroP" class="ms-3 fs-5" target=_blank><i class="fab fa-github"></i></a>
+            
+        </div>
+    </div>
+</footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="/assets/js/main.js"></script>
+</body>
+
+</html>

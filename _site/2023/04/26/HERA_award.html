@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Pietro Favaro</title><meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384–1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"><script src="https://kit.fontawesome.com/d78b9bd9e5.js" crossorigin="anonymous"></script><link rel="stylesheet" href="/assets/css/styles.css"><meta name="google-site-verification" content="1MBqasZm-EWguG5d4ZILHgVOop1wIhc3F6lKv4WmTrc" /><script>
+    function copyCitation(text, number) {
+      const el = document.createElement('textarea');
+      el.value = text;
+      document.body.appendChild(el);
+      el.select();
+      
+      // Copy the text 
+      navigator.clipboard.writeText(String(el.value)); 
+
+      // Alert the copied text// Turn the text into a tick
+      var id = "citation_tooltip_".concat(number)
+      var tooltip = document.getElementById(id); 
+      tooltip.innerHTML = "Copied";
+
+      setTimeout(function() {
+        tooltip.innerHTML = "Copy Citation (IEEE)";
+      }, 3000);
+    }
+  </script>
+</head>
+
+<body>
+  <div class="col-lg-8 mx-auto p-3 py-md-5">
+    <header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container-fluid" style="padding-left: 0; padding-right: 0; padding-bottom: 20px;">
+      <!-- Navbar brand/logo -->
+      <div class="navbar-brand text-styling">
+        <a href="/" class="d-flex align-items-center text-decoration-none">
+          <div class="d-flex flex-column">
+            <span class="fs-4 fw-bold">Pietro Favaro</span>
+            <span class="fs-6">FNRS Research Fellow | PhD Student</span>
+          </div>
+        </a>
+      </div>
+
+      <!-- Hamburger icon (collapsed navbar) -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapsible navbar content -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          
+          <li class="text-styling nav-item">
+            <a class="nav-link" href="/research">Research</a>
+          </li>
+          
+          <li class="text-styling nav-item">
+            <a class="nav-link" href="/blog">Blog</a>
+          </li>
+          
+          <li class="text-styling nav-item">
+            <a class="nav-link" href="/cv">CV</a>
+          </li>
+          
+          <li class="text-styling nav-item">
+            <a class="nav-link" href="/contact">Contact</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+    <div class="row g-5 mb-5">
+    <div class="col-md-12 blog-post">
+        <h3 class="fw-bold border-bottom pb-3 mb-5">HERA Award Sustainable IT</h3>
+        <p><img src="/assets/img/HeraAwardSustainbaleITlogo.jpg" alt="Logo HERA Award Sustainable IT" title="Logo HERA Award Sustainable IT" /></p>
+
+<p>My Master’s Thesis (accessible <a href="https://hera.futuregenerations.be/sites/www.futuregenerations.be/files/2023_mtait_05_tfe_pietrofavaro.pdf">here</a>) has been awarded the HERA<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> Award Sustainable IT. The HERA Awards are annual prizes aimed at fostering and supporting innovative research towards a sustainable world. Specifically, the HERA Award Sustainable IT recognizes remarkable contributions that, through a holistic sustainable approach, bring new insights or practices to the IT sector.</p>
+
+<p>The jury highlighted the novelty of the approach and the impactful application to Pumped Hydro Energy Storage (PHES). By leveraging AI, my innovative techniques have yielded significant economic and environmental benefits in the storage of renewable electricity through PHES. Given the complexity of PHES operations, we employed a combination of machine learning and optimization to derive optimal day-ahead schedules of the units. More precisely, neural networks were utilized to model the efficiency curves of the PHES units. These neural networks were then reformulated as a set of MILP constraints and integrated into a day-ahead scheduling optimization problem. With immediate applicability to existing sites, we can optimize their efficiency and improve their short-term planning. Furthermore, the demonstrated economics of underground PHES pave the way to repurposing former quarries or mines as PHES facilities, thereby minimizing environmental impact and CAPEX costs.</p>
+
+<p>As a young engineer deeply concerned about the climate crisis and environmental damage, receiving this award is a great honor. It recognizes not only the technical excellence of the proposed approach but also its positive societal impact. Finally, it motivates me to strive for excellence in research that contributes to a more sustainable future.</p>
+
+<hr />
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>HERA stands for Higher Education &amp; Research Awards. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+    </div>
+</div>
+    <footer class="pt-5 my-5 text-muted border-top">
+    <div class="row">
+        <div class="col-md-12 text-center social-media-icons">
+            
+            <a href="https://www.linkedin.com/in/pietro-favaro/" class="ms-3 fs-5" target=_blank><i class="fab fa-linkedin"></i></a>
+            
+            <a href="https://github.com/FavaroP" class="ms-3 fs-5" target=_blank><i class="fab fa-github"></i></a>
+            
+        </div>
+    </div>
+</footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="/assets/js/main.js"></script>
+</body>
+
+</html>

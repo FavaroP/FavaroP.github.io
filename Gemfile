@@ -34,3 +34,6 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 # # Get the academic theme 
 # gem "academic-jekyll-theme"
+
+# For google indexing 
+gem "jekyll-sitemap"
