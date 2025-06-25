@@ -27,7 +27,7 @@ papers:
         year: 2024,
         authors: "P. Favaro, M. Gobert, JF. Toubeau",
         publisher: "Jounal of Energy Storage",
-        location: "",
+        location: "Elsevier",
         blog_url: "",
       # Please add double quotes and single quotes to the citation, otherwise the JS responsible for copying to the clipboard doesn't recognise it as a string.
         citation: "'P. Favaro, M. Gobert, and J.-F. Toubeau, “Multi-fidelity optimization for the day-ahead scheduling of Pumped Hydro Energy Storage,” J. Energy Storage, vol. 103, p. 114096, Dec. 2024, doi: 10.1016/j.est.2024.114096.'",
@@ -49,7 +49,7 @@ papers:
         year: 2024,
         authors: "P. Favaro, M Dolányi, F. Vallée, JF. Toubeau",
         publisher: "Energy",
-        location: "",
+        location: "Elsevier",
         blog_url: "",
       # Please add double quotes and single quotes to the citation, otherwise the JS responsible for copying to the clipboard doesn't recognise it as a string.
       citation: "'P. Favaro, M. Dolányi, F. Vallée, and J.-F. Toubeau, “Neural network informed day-ahead scheduling of pumped hydro energy storage,” Energy, vol. 289, p. 129999, Feb. 2024, doi: 10.1016/j.energy.2023.129999.'",
@@ -77,47 +77,47 @@ papers:
       citation: "'C. Zogning, J. Lobry, F. Moiny and P. Favaro, A Study of Negative Corona Discharge by an improved Plasma Model under Action of Photoionization: The Effect of Temperature, Pressure, and Humidity, 2021 IEEE Conference on Electrical Insulation and Dielectric Phenomena (CEIDP), Vancouver, BC, Canada, 2021, pp. 307-314, doi: 10.1109/CEIDP50766.2021.9705465.'",
     }
 
-awards:
-    - {
-        name: "Best Paper Award Runner-Up",
-        url: "https://energy.acm.org/conferences/eenergy/2025/bestpaper.php",
-        year: 2025,
-        description: "Best Paper Award Runner-Up at the 16th ACM International Conference on Future and Sustainable Energy Systems (e-Energy 2025) for the paper 'Decision-Focused Learning for Complex System Identification: HVAC Management System Application'.",
-        blog_url: "",
-    }
-    - {
-        name: "Belgian American Educational Foundation (BAEF) Fellowship",
-        url: "https://baef.be",
-        year: 2024,
-        description: "One-year research stay in Yury Dvorkin's group at Johns Hopkins University funded by the BAEF.",
-        blog_url: "",
-    }
-    - {
-      name: "Scholarship from the Federation Wallonia-Brussels",
-      url: "",
-      year: 2023,
-      description: "Six-month research stay in Thomas Morstyn's group at the University of Edinburgh funded by the Federation Wallonia-Brussels.",
-      blog_url: "",
-    }
-    - {
-        name: "HERA Award",
-        url: "https://hera.futuregenerations.be/en",
-        year: 2023,
-        description: "Higher Education & Research Awards, Sustainable IT - Year 2023",
-        blog_url: "2023/04/26/HERA_award.html",
-    }
-    - {
-      name: "Engie Award",
-      url: "https://www.linkedin.com/posts/engie-belgium_prix-engie-activity-7060221770686976001-3sQ1/?originalSubdomain=pe",
-      year: 2022,
-      description: "Engie Award for the best Master Thesis focusing on the energy transition.",
-      blog_url: "2023/05/04/Engie_Award.html",
-    }
-    - {
-        name: "KBVE-SRBE Award",
-        url: "https://kbve-srbe.be/en/content/1-about",
-        year: 2022,
-        description: "Award from the Belgian National Society for Electricians for the best Master Thesis.",
-        blog_url: "",
-    }
+#awards:
+#    - {
+#        name: "Best Paper Award Runner-Up",
+#        url: "https://energy.acm.org/conferences/eenergy/2025/bestpaper.php",
+#        year: 2025,
+#        description: "Best Paper Award Runner-Up at the 16th ACM International Conference on Future and Sustainable Energy Systems (e-Energy 2025) for the paper 'Decision-Focused Learning for Complex System Identification: HVAC Management System Application'.",
+#        blog_url: "",
+#    }
+#    - {
+#        name: "Belgian American Educational Foundation (BAEF) Fellowship",
+#        url: "https://baef.be",
+#        year: 2024,
+#        description: "One-year research stay in Yury Dvorkin's group at Johns Hopkins University funded by the BAEF.",
+#        blog_url: "",
+#    }
+#    - {
+#      name: "Scholarship from the Federation Wallonia-Brussels",
+#      url: "",
+#      year: 2023,
+#      description: "Six-month research stay in Thomas Morstyn's group at the University of Edinburgh funded by the Federation Wallonia-Brussels.",
+#      blog_url: "",
+#    }
+#    - {
+#        name: "HERA Award",
+#        url: "https://hera.futuregenerations.be/en",
+#        year: 2023,
+#        description: "Higher Education & Research Awards, Sustainable IT - Year 2023",
+#        blog_url: "2023/04/26/HERA_award.html",
+#    }
+#    - {
+#      name: "Engie Award",
+#      url: "https://www.linkedin.com/posts/engie-belgium_prix-engie-activity-7060221770686976001-3sQ1/?originalSubdomain=pe",
+#      year: 2022,
+#      description: "Engie Award for the best Master Thesis focusing on the energy transition.",
+#      blog_url: "2023/05/04/Engie_Award.html",
+#    }
+#    - {
+#        name: "KBVE-SRBE Award",
+#        url: "https://kbve-srbe.be/en/content/1-about",
+#        year: 2022,
+#        description: "Award from the Belgian National Society for Electricians for the best Master Thesis.",
+#        blog_url: "",
+#    }
 
