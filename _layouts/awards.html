@@ -11,7 +11,7 @@ layout: default
 
       <ul class="timeline link-styling">
 
-        {% for item in site.data.awards %}
+        {% for item in site.data.awards.awards %}
 
         <li class="event hidden-hover" data-date="{{ item.year }}">
           <a href="{{ site.github.url }}/{{ item.blog_url }}">{{ item.name }}</a>
