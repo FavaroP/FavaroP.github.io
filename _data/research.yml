@@ -1,16 +1,71 @@
 papers:
-  - {
+    - {
+        name: "Decision-Focused Learning for Neural Network-Constrained Optimization: Application to HVAC Management System",
+        paper_url: "https://arxiv.org/abs/2506.19717",
+        year: 2025,
+        authors: "P. Favaro, JF. Toubeau, F. Vallée, Y. Dvorkin",
+        publisher: "ArXiv",
+        location: "",
+        blog_url: "",
+      # Please add double quotes and single quotes to the citation, otherwise the JS responsible for copying to the clipboard doesn't recognise it as a string.
+        citation: "'P. Favaro, J.-F. Toubeau, F. Vallée, and Y. Dvorkin, “Decision-Focused Learning for Neural Network-Constrained Optimization: Application to HVAC Management System,” Jun. 24, 2025, arXiv: arXiv:2506.19717. doi: 10.48550/arXiv.2506.19717.'",
+    }
+    - {
+        name: "Decision-Focused Learning for Complex System Identification: HVAC Management System Application",
+        paper_url: "https://dl.acm.org/doi/full/10.1145/3679240.3734584",
+        year: 2025,
+        authors: "P. Favaro, JF. Toubeau, F. Vallée, Y. Dvorkin",
+        publisher: "ACM e-Energy 2025",
+        location: "Rotterdam, The Netherlands",
+        blog_url: "",
+      # Please add double quotes and single quotes to the citation, otherwise the JS responsible for copying to the clipboard doesn't recognise it as a string.
+        citation: "'P. Favaro, J.-F. Toubeau, F. Vallée, and Y. Dvorkin, “Decision-Focused Learning for Complex System Identification: HVAC Management System Application,” in Proceedings of the 16th ACM International Conference on Future and Sustainable Energy Systems, in E-Energy ’25. New York, NY, USA: Association for Computing Machinery, Jun. 2025, pp. 347–358. doi: 10.1145/3679240.3734584.'",
+    }
+    - {
+        name: "Multi-Fidelity Optimization for the Day-Ahead Scheduling of Pumped Hydro Energy Storage",
+        paper_url: "https://www.sciencedirect.com/science/article/abs/pii/S2352152X2403682X",
+        year: 2024,
+        authors: "P. Favaro, M. Gobert, JF. Toubeau",
+        publisher: "Jounal of Energy Storage",
+        location: "",
+        blog_url: "",
+      # Please add double quotes and single quotes to the citation, otherwise the JS responsible for copying to the clipboard doesn't recognise it as a string.
+        citation: "'P. Favaro, M. Gobert, and J.-F. Toubeau, “Multi-fidelity optimization for the day-ahead scheduling of Pumped Hydro Energy Storage,” J. Energy Storage, vol. 103, p. 114096, Dec. 2024, doi: 10.1016/j.est.2024.114096.'",
+    }
+    - {
+        name: "Decision-Focused Learning for Optimized Participation of an Industrial Consumer in Energy-Only and Reserve Markets",
+        paper_url: "https://ieeexplore.ieee.org/abstract/document/10863804",
+        year: 2024,
+        authors: "C. Dupont, P. Favaro, F. Vallée, B. François, JF. Toubeau",
+        publisher: "IEEE ISGT Europe 2024",
+        location: "Malta",
+        blog_url: "",
+      # Please add double quotes and single quotes to the citation, otherwise the JS responsible for copying to the clipboard doesn't recognise it as a string.
+        citation: "'C. Dupont, P. Favaro, F. Vallée, B. Francois, and J. -F. Toubeau, “Decision-Focused Learning for Optimized Participation of an Industrial Consumer in Energy-Only and Reserve Markets,” in 2024 IEEE PES Innovative Smart Grid Technologies Europe (ISGT EUROPE), Oct. 2024, pp. 1–5. doi: 10.1109/ISGTEUROPE62998.2024.10863804.'",
+    }
+    - {
+        name: "Neural Network Informed Day-Ahead Scheduling of Pumped Hydro Energy Storage",
+        paper_url: "https://hera.futuregenerations.be/sites/www.futuregenerations.be/files/2023_mtait_05_tfe_pietrofavaro.pdf",
+        year: 2024,
+        authors: "P. Favaro, M Dolányi, F. Vallée, JF. Toubeau",
+        publisher: "Energy",
+        location: "",
+        blog_url: "",
+      # Please add double quotes and single quotes to the citation, otherwise the JS responsible for copying to the clipboard doesn't recognise it as a string.
+      citation: "'P. Favaro, M. Dolányi, F. Vallée, and J.-F. Toubeau, “Neural network informed day-ahead scheduling of pumped hydro energy storage,” Energy, vol. 289, p. 129999, Feb. 2024, doi: 10.1016/j.energy.2023.129999.'",
+    }
+    - {
       name: "[Master Thesis] Machine Learning Informed Optimization Applied To Pumped Hydro Energy Storage",
-      paper_url: "https://hera.futuregenerations.be/sites/www.futuregenerations.be/files/2023_mtait_05_tfe_pietrofavaro.pdf",
+      paper_url: "https://orbi.umons.ac.be/handle/20.500.12907/48519",
       year: 2022,
       authors: "P. Favaro",
-      publisher: "HERA - Higher Education & Research Awards",
-      location: "Faculté polytechnique de Mons",
+      publisher: "University of Mons, Belgium",
+      location: "Engineering Faculty, University of Mons, Belgium",
       blog_url: "/2023/04/26/HERA_award.html",
       # Please add double quotes and single quotes to the citation, otherwise the JS responsible for copying to the clipboard doesn't recognise it as a string.
-      # citation: "'P. Favaro, “Machine Learning Informed Optimization Applied to Pumped Hydro Energy Storage”.'",
+      citation: "'P. Favaro, “Machine Learning Informed Optimization Applied to Pumped Hydro Energy Storage,” University of Mons, 2022. [Online]. Available: https://orbi.umons.ac.be/bitstream/20.500.12907/48519/1/2023_mtait_05_tfe_pietrofavaro.pdf'",
     }
-  - {
+    - {
       name: "A Study of Negative Corona Discharge by an imporved Plasma Model under Action of Photoionization: The Effect of Temperature, Pressure and Humidity",
       paper_url: "https://ieeexplore.ieee.org/abstract/document/9705465",
       year: 2021,
@@ -23,17 +78,46 @@ papers:
     }
 
 awards:
-  - {
+    - {
+        name: "Best Paper Award Runner-Up",
+        url: "https://energy.acm.org/conferences/eenergy/2025/bestpaper.php",
+        year: 2025,
+        description: "Best Paper Award Runner-Up at the 16th ACM International Conference on Future and Sustainable Energy Systems (e-Energy 2025) for the paper 'Decision-Focused Learning for Complex System Identification: HVAC Management System Application'.",
+        blog_url: "",
+    }
+    - {
+        name: "Belgian American Educational Foundation (BAEF) Fellowship",
+        url: "https://baef.be",
+        year: 2024,
+        description: "One-year research stay in Yury Dvorkin's group at Johns Hopkins University funded by the BAEF.",
+        blog_url: "",
+    }
+    - {
+      name: "Scholarship from the Federation Wallonia-Brussels",
+      url: "",
+      year: 2023,
+      description: "Six-month research stay in Thomas Morstyn's group at the University of Edinburgh funded by the Federation Wallonia-Brussels.",
+      blog_url: "",
+    }
+    - {
+        name: "HERA Award",
+        url: "https://hera.futuregenerations.be/en",
+        year: 2023,
+        description: "Higher Education & Research Awards, Sustainable IT - Year 2023",
+        blog_url: "2023/04/26/HERA_award.html",
+    }
+    - {
       name: "Engie Award",
       url: "https://www.linkedin.com/posts/engie-belgium_prix-engie-activity-7060221770686976001-3sQ1/?originalSubdomain=pe",
       year: 2022,
-      description: "Prix Engie 2022",
+      description: "Engie Award for the best Master Thesis focusing on the energy transition.",
       blog_url: "2023/05/04/Engie_Award.html",
     }
-  - {
-      name: "HERA Award",
-      url: "https://hera.futuregenerations.be/en",
-      year: 2022,
-      description: "Higher Education & Research Awards, Sustainable IT - Édition 2023",
-      blog_url: "2023/04/26/HERA_award.html",
+    - {
+        name: "KBVE-SRBE Award",
+        url: "https://kbve-srbe.be/en/content/1-about",
+        year: 2022,
+        description: "Award from the Belgian National Society for Electricians for the best Master Thesis.",
+        blog_url: "",
     }
+
