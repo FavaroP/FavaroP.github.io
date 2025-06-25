@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="row">
+  <div class="col-md-12">
+    <h3 class="fw-bold border-bottom pb-3 mb-5">Awards</h3>
+
+    {%- comment -%} Awards Timeline {%- endcomment -%}
+    <div id="content">
+
+      <ul class="timeline link-styling">
+
+        {% for item in site.data.awards %}
+
+        <li class="event hidden-hover" data-date="{{ item.year }}">
+          <a href="{{ site.github.url }}/{{ item.blog_url }}">{{ item.name }}</a>
+          <a href="{{ item.url }}" target="_blank">
+            <i onclick="readMore({{ forloop.index }})" class="hidden-icon float-end fas fa-external-link">
+              <span class="fw-normal fs-6 p-1 tooltiptext" id="citation_tooltip_{{ forloop.index }}">Read More</span>
+            </i>
+          </a>
+          <p>{{ item.description }}</p>
+        </li>
+
+        {% endfor %}
+
+      </ul>
+
+    </div>
+  </div>
+</div>
