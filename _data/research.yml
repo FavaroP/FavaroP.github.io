@@ -1,14 +1,25 @@
 papers:
     - {
-        name: "Decision-Focused Learning for Neural Network-Constrained Optimization: Application to HVAC Management System",
+        name: "Safe Reinforcement Learning for Battery Energy Storage Participation in the Imbalance Settlement",
+        paper_url: "https://orbi.umons.ac.be/bitstream/20.500.12907/54047/1/Safe_RL_for_BESS_operation_in_the_real_time_market-2.pdf",
+        year: 2025,
+        authors: "P. Favaro, JF. Toubeau, F. Vallée, Y. Dvorkin",
+        publisher: "IEEE Transactions on Energy Markets, Policy and Regulation",
+        location: "IEEE",
+        blog_url: "/2025/12/23/IEEE_TEMPR.html",
+      # Please add double quotes and single quotes to the citation, otherwise the JS responsible for copying to the clipboard doesn't recognise it as a string.
+        citation: "'C. Rasic, P. Favaro, Y. Wang and J. -F. Toubeau, “Safe Reinforcement Learning for Battery Energy Storage Participation in the Imbalance Settlement,” in IEEE Transactions on Energy Markets, Policy and Regulation, doi: 10.1109/TEMPR.2025.3639758.'",
+    }
+    - {
+        name: "Decision-Focused Learning for Neural Network-Constrained HVAC Scheduling",
         paper_url: "https://arxiv.org/abs/2506.19717",
         year: 2025,
         authors: "P. Favaro, JF. Toubeau, F. Vallée, Y. Dvorkin",
-        publisher: "ArXiv",
-        location: "",
-        blog_url: "",
+        publisher: "IEEE Transactions on Smart Grid",
+        location: "IEEE",
+        blog_url: "/2025/12/20/IEEE_TSG.html",
       # Please add double quotes and single quotes to the citation, otherwise the JS responsible for copying to the clipboard doesn't recognise it as a string.
-        citation: "'P. Favaro, J.-F. Toubeau, F. Vallée, and Y. Dvorkin, “Decision-Focused Learning for Neural Network-Constrained Optimization: Application to HVAC Management System,” Jun. 24, 2025, arXiv: arXiv:2506.19717. doi: 10.48550/arXiv.2506.19717.'",
+        citation: "'P. Favaro, J. -F. Toubeau, F. Vallée and Y. Dvorkin, “Decision-Focused Learning for Neural Network-Constrained HVAC Scheduling,” in IEEE Transactions on Smart Grid, doi: 10.1109/TSG.2025.3639887.'",
     }
     - {
         name: "Decision-Focused Learning for Complex System Identification: HVAC Management System Application",
@@ -17,7 +28,7 @@ papers:
         authors: "P. Favaro, JF. Toubeau, F. Vallée, Y. Dvorkin",
         publisher: "ACM e-Energy 2025",
         location: "Rotterdam, The Netherlands",
-        blog_url: "",
+        blog_url: "/2025/06/20/PaperAwardACM.html",
       # Please add double quotes and single quotes to the citation, otherwise the JS responsible for copying to the clipboard doesn't recognise it as a string.
         citation: "'P. Favaro, J.-F. Toubeau, F. Vallée, and Y. Dvorkin, “Decision-Focused Learning for Complex System Identification: HVAC Management System Application,” in Proceedings of the 16th ACM International Conference on Future and Sustainable Energy Systems, in E-Energy ’25. New York, NY, USA: Association for Computing Machinery, Jun. 2025, pp. 347–358. doi: 10.1145/3679240.3734584.'",
     }
